@@ -1,0 +1,127 @@
+body {
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+}
+
+.masthead-heading,
+.masthead-intro,
+.content-footer {
+  text-align: center;
+}
+
+.masthead {
+  padding: 6em 0;
+  background-image: url(https://download.unsplash.com/photo-1421284621639-884f4129b61d);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: solid 1em #f4c22d;
+  margin-bottom: 0;
+}
+
+.masthead-intro {
+  margin-bottom: 0.1em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+  color: #fff;
+}
+
+.masthead-heading {
+  margin-top: -0.2em;
+  font-family: "Open Sans" "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #f4c22d;
+  text-shadow: 5px 5px 1px #000;
+}
+
+.introduction-section,
+.location-section,
+.questions-section{
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.introduction-section > h1,
+.location-section > h1,
+.questions-section > h1 {
+  font-size: 1.5em;
+}
+
+.introduction-section > p,
+.location-section > p,
+.questions-section > p {
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  line-height: 1.5em;
+}
+
+.questions-section > h2 {
+  color: #f4c22d;
+}
+
+.last {
+  margin-bottom: 3em;
+}
+
+.content-footer {
+  margin: 0;
+  padding: 4.5em 0;
+  background-color: #6B5F50;
+  font-size: 1.1em;
+}
+
+.questions-section > h2 {
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 2em 0 1em 0;
+}
+
+section > h1 {
+  margin-top: 2em;
+}
+
+.content-footer > p {
+  color: white;
+  margin: 0;
+}
+
+.content-footer a {
+  color: #f4c22d;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.social > li {
+  display: inline-block;
+}
+
+ul {
+  padding-left: 0;
+}
+
+@media only screen and (max-width: 500px) {
+  .masthead {
+    padding: 3em 0;
+  }
+  .masthead-heading {
+    font-size: 4.5em;
+  }
+  .questions-section,
+  .introduction-section,
+  .location-section {
+    padding: 0 1.6em;
+  }
+  .content-footer {
+    padding-left: 1.4em;
+    padding-right: 1.4em;
+  }
+}
+
+
